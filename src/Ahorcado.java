@@ -12,7 +12,7 @@ public class Ahorcado {
         }
         System.out.println("");
     }
-
+//
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         ArrayList<String> paraules=new ArrayList<>();
