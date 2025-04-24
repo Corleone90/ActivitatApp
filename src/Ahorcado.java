@@ -27,8 +27,7 @@ public class Ahorcado {
         ArrayList<Character> lletres=new ArrayList<>();
         
         for (int i = 'a'; i < 26+'a'; i++) {
-            char lletra=(char)i;
-            //System.out.println(lletra);
+            char lletra=(char)i;        
             lletres.add(lletra);
         }
         lletres.add('ç');
@@ -41,7 +40,7 @@ public class Ahorcado {
         }
         lletres_disponibles.addAll(lletres);
         
-        System.out.println("Començam");
+        System.out.println("Començam!!");
         while (!paraula_secreta.equals(solucio) || vides==0) {
             System.out.println("VIDES: " + vides);
             System.out.println("Digues una lletra");
