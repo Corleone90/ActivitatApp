@@ -40,7 +40,7 @@ public class Ahorcado {
         }
         lletres_disponibles.addAll(lletres);
         
-        System.out.println("Començam!!");
+        System.out.println("Començam!");
         while (!paraula_secreta.equals(solucio) || vides==0) {
             System.out.println("VIDES: " + vides);
             System.out.println("Digues una lletra");
